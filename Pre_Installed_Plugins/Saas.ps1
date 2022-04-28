@@ -21,6 +21,8 @@ if($lang.Name -eq "fr-FR"){
 	$pwlang = "Nom d'enregistrement"
 }elseif($lang.Name -eq "it-IT"){
 	$pwlang = "Nome record"
+}elseif($lang.Name -eq "de-DE"){
+	$pwlang = "Eintragsname"
 }else{
 	$pwlang = "Record Name"
 }
